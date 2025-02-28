@@ -1,0 +1,12 @@
+local-hw:
+  location: test-rack
+
+  RawSerialPort:
+    port: "/dev/ttyUSB0"
+
+  NetworkService:
+    address: "192.168.4.11"
+    username: 'root'
+
+
+
